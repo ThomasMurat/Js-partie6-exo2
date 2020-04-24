@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Js-partie6-exo2</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    </head>
+    <body>
+        <h2>JavaScript exo 8: les boucles</h2>
+        <script>
+            for (let i = 0; i <= 100; i++) {
+                if ((i % 15 == 0) && (i != 0)) {
+                    var p = document.createElement("P");
+                    p.innerHTML = "...";
+                    document.body.appendChild(p);
+                    
+                }else {
+                    var p = document.createElement("P");
+                    p.innerHTML = i;
+                    document.body.appendChild(p);
+                }
+            }
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    </body>
+</html>
